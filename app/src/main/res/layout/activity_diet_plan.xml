@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/back1"
+    tools:context="com.example.swetasamaddar.dietconsultant.dietPlan">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@color/back1">
+
+        <ImageButton
+            android:layout_width="150sp"
+            android:layout_height="150sp"
+            android:layout_marginLeft="10sp"
+            android:layout_marginTop="10sp"
+            android:background="@color/appbar"
+            android:src="@drawable/user"
+
+            />
+
+        <ImageButton
+            android:layout_width="180sp"
+            android:layout_height="150sp"
+            android:layout_marginLeft="20sp"
+            android:layout_marginTop="10sp"
+            android:background="@color/appbar"
+            android:src="@drawable/doc" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10sp"
+        android:background="@color/back1">
+
+
+
+        <ImageButton
+            android:layout_width="180sp"
+            android:layout_height="150sp"
+            android:layout_marginLeft="20sp"
+            android:layout_marginTop="10sp"
+            android:background="@color/appbar"
+            android:src="@drawable/dirt"/>
+        <ImageButton
+            android:layout_width="150sp"
+            android:layout_height="150sp"
+            android:layout_marginLeft="10sp"
+            android:layout_marginTop="10sp"
+            android:background="@color/appbar"
+            android:src="@drawable/exercise"
+            />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10sp"
+        android:background="@color/back1">
+
+
+
+        <ImageButton
+            android:layout_width="180sp"
+            android:layout_height="150sp"
+            android:layout_marginLeft="20sp"
+            android:layout_marginTop="10sp"
+            android:background="@color/appbar"
+            android:src="@drawable/sleep"/>
+        <ImageButton
+            android:layout_width="150sp"
+            android:layout_height="150sp"
+            android:layout_marginLeft="10sp"
+            android:layout_marginTop="10sp"
+            android:background="@color/appbar"
+            android:src="@drawable/smoke"
+            />
+
+
+    </LinearLayout>
+
+    </LinearLayout>

@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.swetasamaddar.dietconsultant.LoginScreen"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BASIC DETAILS"
+        android:textSize="26sp"
+        android:layout_margin="10sp"
+       />
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <TextView
+        android:layout_margin="20sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ENTER NAME:"
+        android:layout_marginRight="20sp"/>
+    <EditText
+        android:layout_margin="20sp"
+        android:layout_width="match_parent"
+        android:layout_height="30sp"
+        android:textSize="20sp"
+        android:id="@+id/name"
+        android:background="@drawable/rounded_editext"/>
+</LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_margin="20sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ENTER AGE:"
+            android:layout_marginRight="20sp"/>
+        <EditText
+            android:layout_margin="20sp"
+            android:layout_width="match_parent"
+            android:layout_height="30sp"
+            android:textSize="20sp"
+            android:inputType="number"
+            android:id="@+id/age"
+            android:background="@drawable/rounded_editext"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_margin="20sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ENTER SEX:"
+            android:layout_marginRight="20sp"/>
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <RadioButton
+                android:layout_margin="20sp"
+                android:layout_width="wrap_content"
+                android:text="Male"
+                android:id="@+id/male"
+                android:layout_height="30sp" />
+            <RadioButton
+                android:layout_margin="20sp"
+                android:layout_width="wrap_content"
+                android:text="Female"
+                android:id="@+id/female"
+                android:layout_height="30sp" />
+        </RadioGroup>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_margin="20sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ENTER HEIGHT:"
+            android:layout_marginRight="20sp"/>
+        <EditText
+            android:layout_margin="20sp"
+            android:layout_width="36sp"
+            android:layout_height="30sp"
+            android:textSize="20sp"
+            android:inputType="number"
+            android:id="@+id/height"
+            android:background="@drawable/rounded_editext"/>
+        <TextView
+            android:layout_margin="20sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="cm"
+            android:textSize="20sp"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_margin="20sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ENTER WEIGHT:"
+            android:layout_marginRight="20sp"/>
+        <EditText
+            android:layout_margin="20sp"
+            android:layout_width="36sp"
+            android:layout_height="30sp"
+            android:inputType="number"
+            android:textSize="20sp"
+            android:id="@+id/weight"
+            android:background="@drawable/rounded_editext"/>
+        <TextView
+            android:layout_margin="20sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Kg"
+            android:textSize="20sp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_margin="20sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="BLOOD PRESSURE:" />
+        <EditText
+            android:layout_margin="20sp"
+            android:layout_width="36sp"
+            android:layout_height="30sp"
+            android:inputType="number"
+            android:textSize="20sp"
+            android:id="@+id/ubp"
+            android:background="@drawable/rounded_editext"/>
+        <TextView
+            android:layout_margin="20sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" / "
+            android:textSize="20sp"/>
+        <EditText
+            android:layout_margin="20sp"
+            android:layout_width="36sp"
+            android:layout_height="30sp"
+            android:inputType="number"
+            android:textSize="20sp"
+            android:id="@+id/lbp"
+            android:background="@drawable/rounded_editext"/>
+    </LinearLayout>
+
+<Button
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="SAVE AND GO"
+    android:id="@+id/save"
+    android:layout_gravity="center"/>
+
+
+</LinearLayout>

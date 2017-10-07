@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "126805319164",
+    "firebase_url": "https://dietpundit-9e8b1.firebaseio.com",
+    "project_id": "dietpundit-9e8b1",
+    "storage_bucket": "dietpundit-9e8b1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:126805319164:android:c1b77c3ae1f8112b",
+        "android_client_info": {
+          "package_name": "com.example.swetasamaddar.dietconsultant"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "126805319164-3hda6kbmqa5b3juqtvi7qqcpsghi3nfp.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.swetasamaddar.dietconsultant",
+            "certificate_hash": "8c9c6d85df595b8972c517bcecce365a606aac81"
+          }
+        },
+        {
+          "client_id": "126805319164-db33di2mj68kj8q5n0bn6jfo1913tk6a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCw9l9lp0xvu4kxeYGwEvrd7T4uFFmG4Y8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "126805319164-db33di2mj68kj8q5n0bn6jfo1913tk6a.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

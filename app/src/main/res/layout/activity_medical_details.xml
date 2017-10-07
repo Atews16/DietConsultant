@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.swetasamaddar.dietconsultant.MedicalDetails">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="MEDICAL DETAILS"
+        android:textSize="26sp"
+        android:layout_margin="10sp"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_margin="20sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="LIFE STYLE:"
+            android:layout_marginRight="20sp"/>
+        </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <RadioButton
+                android:layout_margin="5sp"
+                android:layout_width="wrap_content"
+                android:text="Sedentry"
+                android:id="@+id/sedentry"
+                android:layout_height="20sp" />
+            <RadioButton
+                android:layout_margin="5sp"
+                android:layout_width="wrap_content"
+                android:text="Moderate activity"
+                android:id="@+id/mod_act"
+                android:layout_height="20sp" />
+            <RadioButton
+                android:layout_margin="5sp"
+                android:layout_width="wrap_content"
+                android:text="High activity"
+                android:id="@+id/high_act"
+                android:layout_height="20sp" />
+        </RadioGroup>
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_margin="20sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="BLOOD SUGAR LEVEL:"
+            android:layout_marginRight="20sp"/>
+
+        <EditText
+            android:id="@+id/sugar"
+            android:layout_width="50sp"
+            android:layout_height="30sp"
+            android:layout_margin="20sp"
+            android:background="@drawable/rounded_editext"
+            android:inputType="number"
+            android:layout_marginLeft="100sp"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="20sp"
+            android:text="CHOLESTROL:" />
+
+        <EditText
+            android:id="@+id/cholestrol"
+            android:layout_width="50sp"
+            android:layout_height="30sp"
+            android:layout_marginTop="20sp"
+            android:layout_marginLeft="80sp"
+            android:background="@drawable/rounded_editext"
+            android:inputType="number"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <CheckBox
+            android:layout_margin="20sp"
+            android:layout_width="wrap_content"
+            android:layout_height="30sp"
+            android:textSize="20sp"
+            android:text="ADDICTION (if any)"
+            android:id="@+id/addiction"
+            android:background="@drawable/rounded_editext"/>
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <CheckBox
+            android:layout_margin="10sp"
+            android:layout_width="wrap_content"
+            android:layout_height="30sp"
+            android:textSize="20sp"
+            android:text="Smoking"
+            android:checked="false"
+            android:id="@+id/smoke"
+            />
+        <CheckBox
+            android:layout_margin="10sp"
+            android:layout_width="wrap_content"
+            android:layout_height="30sp"
+            android:textSize="20sp"
+            android:text="Drinking"
+            android:checked="false"
+            android:id="@+id/drink" />
+        <CheckBox
+            android:layout_margin="10sp"
+            android:layout_width="wrap_content"
+            android:layout_height="30sp"
+            android:textSize="20sp"
+            android:text="Drugs"
+            android:checked="false"
+            android:id="@+id/drug" />
+
+
+
+    </LinearLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="PROCEED"
+        android:id="@+id/proceed"
+        android:layout_margin="30sp"
+        android:layout_gravity="center"/>
+
+
+
+</LinearLayout>
